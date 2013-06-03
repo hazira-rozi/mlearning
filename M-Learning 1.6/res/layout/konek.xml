@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TextView android:text="Kelas" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:layout_height="wrap_content" android:id="@+id/editText_kelas" android:layout_width="match_parent">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:text="Mapel" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:layout_height="wrap_content" android:id="@+id/editText_mapel" android:layout_width="match_parent"></EditText>
+    <TextView android:text="Judul" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:layout_height="wrap_content" android:id="@+id/editText_judul" android:layout_width="match_parent"></EditText>
+    <TextView android:text="Diskripsi" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:layout_height="wrap_content" android:id="@+id/editText_diskripsi" android:layout_width="match_parent" ></EditText>
+    <TextView android:text="Kategori" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:layout_width="match_parent" android:id="@+id/editText_kategori" android:layout_height="wrap_content"></EditText>
+    <TextView android:text="Url" android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:layout_height="wrap_content" android:id="@+id/editText_url" android:layout_width="match_parent"></EditText>
+    <TextView android:text="User" android:id="@+id/textView7" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:layout_height="wrap_content" android:id="@+id/editText_user" android:layout_width="match_parent"></EditText>
+    <Button android:text="Konek" android:id="@+id/btnKonek" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    
+</LinearLayout>

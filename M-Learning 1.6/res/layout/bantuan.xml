@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="#444444"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:text="M-Learning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_gravity="center"></TextView>
+    <TextView android:text="(beta 1.6)" android:layout_width="wrap_content" android:layout_gravity="center" android:layout_height="wrap_content" android:id="@+id/textView7"></TextView>
+    <TextView android:text="" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:text="Aplikasi Android Mobile Learning (M-Learning) merupakan aplikasi Electronic Learning pada perangkat mobile berbasis android. Aplikasi ini digunakan sebagai media pembelajaran antara guru dan siswa dimana guru dapat memberikan materi kepada siswa dimana saja dan kapan saja dengan menggunakan perangkat smartphone Android" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    
+    <TextView android:text="Registrasi - Untuk registrasi isikan data diri asli. Username tidak boleh lebih dari 6 karakter dan boleh berupa angka maupun huruf" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:text="Upload Materi/Tugas - Materi/Tugas yang dapat diupload harus dengan format dokumen seperti doc, docx, xls, xlsx, pdf, ppt, pptx, dll" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:text="Lihat Materi - Siswa dapat melihat materi yang sudah di upload guru berdasarkan kelas dan mata pelajaran" android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    
+</LinearLayout>
